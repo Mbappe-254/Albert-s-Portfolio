@@ -1,13 +1,15 @@
 body {
-    font-family: "Open Sans", sans-serif; }
-  
-  h1,
+    font-family: "Open Sans", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   }
   h2,
   h3 {
     font-family: "Lobster", cursive; }
   
   h2 {
-    color: #3046C5; }
+    color: darkgray ; }
   
   header h2 {
     color: #CEC8FF; }
@@ -28,7 +30,7 @@ body {
     min-height: 200px; }
   
   .navbar-dark {
-    background-color: #901CAD; }
+    background-color:white; }
   
   .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5); }
@@ -49,4 +51,33 @@ body {
     bottom: 0;
     z-index: 100; 
   }
+  .section-header{
+    margin-top: 200px;
+    text-align: center;
+    font-weight: bolder;
   
+  }
+  .image-navvar{
+    border-radius: 10px;
+  }
+  .bg-img{
+    background-image: url(/images/mountain.jpeg);
+    min-height: 480px;
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mountain{
+    text-align: center;
+    font-weight: bolder;
+    font-style:normal;
+    font-size: 50px;
+  }
+
+  h1{
+    text-align: center;
+    font-weight: bolder;
+    font-style:  normal;
+    font-size: 50px;
+  }
